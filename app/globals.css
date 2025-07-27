@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  background: #0D0D0D;
+  color: #fff1ce;
+  --webkit-text-fill-color: #f4b514;
+}
+
+@font-face {
+  font-family: 'custom', sans-serif;
+  src: url('./../font/PlaywritePEGuides-Regular.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@theme {
+  --font-custom: 'custom', sans-serif;
+}
+
+.navbar-background1{
+  mask-image: url(https://framerusercontent.com/images/UifaEHkKcfW7EhyLfaQO6ajJ8.png), url(https://framerusercontent.com/images/OPxOKBGTNp6eq3rgyKnBP4IP39g.png), url(https://framerusercontent.com/images/r6G1OKuLvCTmxaxRvsJxBEgDlk.png), linear-gradient(0deg, rgba(0, 0, 0, 0) 61%, rgb(0, 0, 0) 61%);
+  -webkit-mask-position-x: center, center, center, 0%;
+  -webkit-mask-position-y: bottom, bottom, bottom, 0%;
+  mask-size: contain, contain, contain, auto;
+  mask-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  mask-origin: border-box, border-box, border-box, border-box;
+  mask-clip: border-box, border-box, border-box, border-box;
+  mask-composite: add, add, add, add;
+  mask-mode: alpha, luminance, luminance, match-source;
+}
+
+.navbar-background2{
+  mask-image: url(https://framerusercontent.com/images/UifaEHkKcfW7EhyLfaQO6ajJ8.png), url(https://framerusercontent.com/images/OPxOKBGTNp6eq3rgyKnBP4IP39g.png), url(https://framerusercontent.com/images/r6G1OKuLvCTmxaxRvsJxBEgDlk.png), linear-gradient(0deg, rgba(0, 0, 0, 0) 61%, rgb(0, 0, 0) 61%);
+  -webkit-mask-position-x: center, center, center, 0%;
+  -webkit-mask-position-y: bottom, bottom, bottom, 0%;
+  mask-size: contain, contain, contain, auto;
+  mask-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  mask-origin: border-box, border-box, border-box, border-box;
+  mask-clip: border-box, border-box, border-box, border-box;
+  mask-composite: add, add, add, add;
+  mask-mode: alpha, alpha, luminance, match-source;
+}
+
+.navbar-background3{
+  mask-image: url(https://framerusercontent.com/images/UifaEHkKcfW7EhyLfaQO6ajJ8.png), url(https://framerusercontent.com/images/OPxOKBGTNp6eq3rgyKnBP4IP39g.png), url(https://framerusercontent.com/images/r6G1OKuLvCTmxaxRvsJxBEgDlk.png), linear-gradient(0deg, rgba(0, 0, 0, 0) 61%, rgb(0, 0, 0) 61%);
+  -webkit-mask-position-x: center, center, center, 0%;
+  -webkit-mask-position-y: bottom, bottom, bottom, 0%;
+  mask-size: contain, contain, contain, auto;
+  mask-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  mask-origin: border-box, border-box, border-box, border-box;
+  mask-clip: border-box, border-box, border-box, border-box;
+  mask-composite: add, add, add, add;
+  mask-mode: alpha, alpha, alpha, match-source;
+}
