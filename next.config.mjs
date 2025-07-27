@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    assetPrefix: 'sujal.fun',
-    basePath: 'sujal.fun',
+    assetPrefix: 'sujaltyagi007.github.io',
+    basePath: 'sujaltyagi007.github.io',
 };
 
 export default nextConfig;
