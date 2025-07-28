@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Cards() {
     return (
-        <div className="framer-1pw89aj bg-amber-400"
+        <div className="framer-1pw89aj "
             data-framer-name="Container"
             style={{
                 borderRadius: 0,
